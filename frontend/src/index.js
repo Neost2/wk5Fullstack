@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-const aws = require("@pulumi/aws");
-const pulumi = require("@pulumi/pulumi")
+// const aws = require("@pulumi/aws");
+// const pulumi = require("@pulumi/pulumi")
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
