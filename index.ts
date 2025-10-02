@@ -1,9 +1,9 @@
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const config = new pulumi.Config();
-const awsConfig = new pulumi.Config("aws");
-const region = awsConfig.require("region");
+// const config = new pulumi.Config();
+// const awsConfig = new pulumi.Config("aws");
+// const region = awsConfig.require("region");
 
 const bucket = new aws.s3.Bucket("react-app-bucket", {
 website: {
